@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Moolfel/Rolodex-app/static/css/main.5a12010a.css",
-    "main.js": "/Moolfel/Rolodex-app/static/js/main.f76f8eae.js",
-    "static/js/787.0139bd9c.chunk.js": "/Moolfel/Rolodex-app/static/js/787.0139bd9c.chunk.js",
+    "main.js": "/Moolfel/Rolodex-app/static/js/main.c2913593.js",
+    "static/js/787.da61a128.chunk.js": "/Moolfel/Rolodex-app/static/js/787.da61a128.chunk.js",
     "static/media/logo.svg": "/Moolfel/Rolodex-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Moolfel/Rolodex-app/index.html",
     "main.5a12010a.css.map": "/Moolfel/Rolodex-app/static/css/main.5a12010a.css.map",
-    "main.f76f8eae.js.map": "/Moolfel/Rolodex-app/static/js/main.f76f8eae.js.map",
-    "787.0139bd9c.chunk.js.map": "/Moolfel/Rolodex-app/static/js/787.0139bd9c.chunk.js.map"
+    "main.c2913593.js.map": "/Moolfel/Rolodex-app/static/js/main.c2913593.js.map",
+    "787.da61a128.chunk.js.map": "/Moolfel/Rolodex-app/static/js/787.da61a128.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a12010a.css",
-    "static/js/main.f76f8eae.js"
+    "static/js/main.c2913593.js"
   ]
 }
