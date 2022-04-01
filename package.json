@@ -2,7 +2,7 @@
   "name": "m-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Moolfel/Rolodex-app",
+  "homepage": "https://moolfel.github.io/Rolodex-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
