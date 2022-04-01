@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component';
+import { SearchBox } from './components/search-box/search-box.component';
 
 
 class App extends Component {
@@ -10,7 +11,8 @@ class App extends Component {
     super()
 
     this.state = {
-      monsters: []
+      monsters: [],
+      searchField: ''
     };
   }
   componentWillMount() {
@@ -21,13 +23,24 @@ class App extends Component {
       }))
   }
 
+  handleChange = (e) => {
+    this.setState({
+      searchField: e.target.value
+    });
+  }
+
   render() {
+    const { monsters, searchField} = this.state;
+    const filteredMonsters = monsters.filter(monster =>(
+      monster.name.toLowerCase().includes(searchField.toLowerCase())));
     return (
       <div className="App">
-        <CardList monsters={this.state.monsters}>
-
-
-        </CardList>
+      <h1> Robot Rolodex</h1>
+      <SearchBox
+      placeholder='Search The Robots'
+      handleChange={ this.handleChange }
+      />
+      <CardList monsters={filteredMonsters}/>
       </div>
     );
   }
